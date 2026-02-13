@@ -18,7 +18,7 @@ function App() {
     try {
       // ملحوظة: تأكد إن بورت السيرفر بتاعك 5000
       const response = await axios.post(
-        "http://localhost:5000/api/v1/ai/consult",
+        "https://expert-ai-backend-production.up.railway.app/api/v1/ai",
         { prompt },
       );
 
